@@ -1,0 +1,9 @@
+services:
+  facerecognizer:
+    build: .
+    image: facerecognizer:latest
+    ports:
+      - "9009:9009"
+    restart: always
+    volumes:
+      - ./setting.json:/app/setting.json:ro
