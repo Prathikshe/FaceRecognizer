@@ -58,9 +58,9 @@ app = FastAPI(
     summary="Face recognize using deepface",
     version="1.0.0",
     contact={
-        "name": "Telenetix Private Limited",
-        "url": "https://www.telenetix.in/contact.html",
-        "email": "txcontact@telenetix.in",
+        "name": "Prathik",
+        "url": "https://github.com/Prathikshe",
+        "email": "prathikpshet21@gmail.com",
     },
     docs_url="/docs",
     root_path="/face_recognizer",
